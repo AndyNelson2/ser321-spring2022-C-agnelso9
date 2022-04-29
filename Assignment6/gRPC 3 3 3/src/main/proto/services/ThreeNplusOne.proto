@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "service";
+option java_outer_classname = "ThreeNplusOneProto";
+
+package services;
+
+service ThreeNplusOne {
+  rpc getResult (ThreeReq) returns (ThreeRes) {}
+  rpc getPath (ThreeReq) returns (ThreePathRes) {}
+}
+
+// The request message
+message ThreeReq {
+  int32 number = 1;
+}
+
+// The response message
+message ThreePathRes {
+  repeated int32 result = 1;
+}
+
+// The response message
+message ThreeRes {
+  int32 answer = 1;
+}
