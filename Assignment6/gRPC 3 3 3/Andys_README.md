@@ -1,6 +1,7 @@
-# Howdy
+# Howdy :D
 
-hi I don't know why my readme file doesn't look fancy like the other one 
+hi 
+
 screencast: https://youtu.be/xN4Wpamoeco
 
 ### Description
