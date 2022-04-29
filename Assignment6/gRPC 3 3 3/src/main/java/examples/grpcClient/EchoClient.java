@@ -510,40 +510,6 @@ public class EchoClient {
 	    		default: 
 	    			System.out.println("Please enter one of the listed options (e.g. 1, 2, or 3)"); 
 	    		}
-	    		// Reading data using readLine
-	    		/*
-	    		System.out.println("How many jokes would you like?"); // NO ERROR handling of wrong input here.
-	    		String num = reader.readLine();
-	
-	    		// calling the joked service from the server with num from user input
-	    		client.askForJokes(Integer.valueOf(num));
-		
-	    		// adding a joke to the server
-	    		client.setJoke("I made a pencil with two erasers. It was pointless.");
-		
-	    		// showing 6 joked
-	    		client.askForJokes(Integer.valueOf(6));
-		
-	    		// ############### Contacting the registry just so you see how it can be done
-		
-	    		if (args[5].equals("true")) { 
-		 	      // Comment these last Service calls while in Activity 1 Task 1, they are not needed and wil throw issues without the Registry running
-	    			// get thread's services
-	    			client.getServices(); // get all registered services 
-		
-	    			// get parrot
-	    			client.findServer("services.Echo/parrot"); // get ONE server that provides the parrot service
-		        
-	    			// get all setJoke
-	    			client.findServers("services.Joke/setJoke"); // get ALL servers that provide the setJoke service
-		        
-	    			// get getJoke
-	    			client.findServer("services.Joke/getJoke"); // get ALL servers that provide the getJoke service
-		
-		      	 // does not exist
-	    			client.findServer("random"); // shows the output if the server does not find a given service
-	    			*/
-		      //}
     		}//end of while loop on line 363
     	}
     } finally {
